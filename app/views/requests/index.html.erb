@@ -1,0 +1,10 @@
+<h1>Welcome to HelpFeedME</h1>
+
+<h2>The app to tell you where to get some food</h2>
+
+
+<%= form_for :requests do |f| %>
+  <%= f.label :zip_code %>
+  <%= f.text_field :zip_code %><br />
+  <%= f.submit %>
+<% end %>
